@@ -39,7 +39,7 @@ function nextMessage() {
     if (messages.length > 0) { 
         let message = '<p>' + username + messages.shift() + '</p>'
         let container = document.getElementById('messages')
-        console.log(container.scrollHeight, container.scrollTop, (container.scrollHeight - container.scrollTop), container.clientHeight)
+
         let isScrolledToBottom = Math.floor(container.scrollHeight - container.scrollTop) <= container.clientHeight + 1
 
         container.innerHTML += message
