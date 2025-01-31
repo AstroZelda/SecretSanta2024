@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Bold Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Heavy.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Heavy Italic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Light Italic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Medium Italic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Condensed.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GillSans";
+    src: url("../resources/font/Gill sans Condensed Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
