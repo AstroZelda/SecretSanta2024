@@ -26,7 +26,8 @@ body {
     justify-content: center;
     overflow: hidden;
     
-    box-shadow: inset 0 0 200px black
+    box-shadow: inset 0 0 20dvh black;
+    font-size: 1.5em;
 }
 
 #logo {
@@ -88,7 +89,7 @@ body {
 
 #chatbox {
     width: 60dvh;
-    min-width: 200px;
+    min-width: 20dvh;
     height: 30dvh;
     min-height: 12dvh;
 
@@ -96,7 +97,7 @@ body {
     overflow: auto;
     
     background-color: var(--chatbox-background-transparent);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(0.2dvh);
     
     display: none; /*grid*/
     grid-template-rows: auto 6dvh;
@@ -105,8 +106,8 @@ body {
 
 #chat-input {
     background-color: var(--chatbox-background-opaque);
-    border: 1px solid var(--accent-transparent);
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 0.1dvh solid var(--accent-transparent);
+    box-shadow: inset 0 0 1dvh rgba(0, 0, 0, 0.3);
 
     display: flex;
     align-items: center;
@@ -116,7 +117,7 @@ body {
     font-style: italic;
     font-weight: lighter;
 
-    padding-left: 20px;
+    padding-left: 2dvh;
     color: var(--text);
 
     user-select: none;
@@ -131,9 +132,9 @@ body {
 }
 
 #messages {
-    margin: 5px;
-    margin-right: 2px;
-    padding-right: 3px;
+    margin: 0.5dvh;
+    margin-right: 0.2dvh;
+    padding-right: 0.3dvh;
 
     font-family: "Cabin", sans-serif;
     font-weight: lighter;
@@ -167,12 +168,12 @@ body {
 }
 
 #messages::-webkit-scrollbar {
-    margin-right: 2px;
-    width: 6px;
+    margin-right: 0.2dvh;
+    width: 0.6dvh;
     background: transparent;
 }
 
 #messages::-webkit-scrollbar-thumb {
-    border-radius: 3px;
+    border-radius: 0.3dvh;
     background: var(--accent-opaque);
 }
